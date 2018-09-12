@@ -19,10 +19,10 @@ import moment from 'moment';
 
 const { MonthPicker, RangePicker } = DatePicker;
 
-const dateFormat = 'YYYY-MM-DD';
+const dateFormat = 'YYYY-MM-DD HH:mm:ss';
 ReactDOM.render(
   <div>
-    <DatePicker defaultValue={moment('2015-06-06', dateFormat)} disabled />
+    <DatePicker defaultValue={moment('2015-06-06 12:23:23', dateFormat)} disabled />
     <br />
     <MonthPicker defaultValue={moment('2015-06', 'YYYY-MM')} disabled />
     <br />
